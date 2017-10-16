@@ -39,6 +39,7 @@ li {
   cursor: pointer;
 }
 header {
+  float: right;
   padding-top: 2px;
   padding-right: 10px;
   width: 640px;
@@ -48,3 +49,15 @@ header {
 li:hover a { 
   color: #1da1f2;
  }
+#feed {
+  padding-top: 100px;
+  float:right;
+}
+#window {
+    border-color: #C6E7FB;
+    width: 650px;
+    background-color: #E8F5FD;
+    border: 1px solid #e6ecf0;
+    border-radius: 8px;
+    line-height: 50px;
+}
