@@ -10,7 +10,11 @@
     };
 })();
 
-// Posts the text from input window to the feed
+// Storing input values into list
+const inputList = [];
 $("#add_text").click(function () {
-  $('#feed').append($('#text_name').val());  
+  const value = ($('#text_name').val());
+    $('#feed').append("<p>" + value + "</p>");
 });
+
+
